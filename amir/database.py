@@ -4,7 +4,8 @@ from sqlalchemy import Integer, String, Date, Boolean, Unicode
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-from migrate.versioning import exceptions,api
+from migrate.versioning import api
+from migrate import exceptions
 # metadata = MetaData(bind=engine)
  
 # create tables in database
