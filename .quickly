@@ -1,0 +1,7 @@
+project = amir
+template = ubuntu-application
+version = 0.6.1
+dependencies = python-sqlalchemy (>=0.6.0)
+ppa = amir
+target_distribution = maverick
+lp_id = amir

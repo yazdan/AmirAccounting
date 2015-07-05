@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-15 10:30+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../amir/docreport.py:52
+msgid "No document found with the requested number."
+msgstr ""
+
+#: ../amir/docreport.py:53
+msgid "Invalid document number"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:49 ../win32/test.py:14
+#: ../win32/test.py:19
+msgid "Index"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:54
+#: ../amir/notebookreport.py:177 ../amir/notebookreport.py:275
+#: ../amir/notebookreport.py:277 ../amir/subjects.py:37
+msgid "Subject Code"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:59
+#: ../amir/notebookreport.py:275 ../amir/notebookreport.py:277
+#: ../amir/subjects.py:42
+msgid "Subject Name"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:78
+#: ../amir/notebookreport.py:177 ../amir/notebookreport.py:201
+msgid "Description"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:68
+#: ../amir/tbalancereport.py:53 ../amir/notebookreport.py:177
+#: ../amir/notebookreport.py:201
+msgid "Debt"
+msgstr ""
+
+#: ../amir/docreport.py:59 ../amir/addeditdoc.py:73
+#: ../amir/tbalancereport.py:53 ../amir/notebookreport.py:177
+#: ../amir/notebookreport.py:201
+msgid "Credit"
+msgstr ""
+
+#: ../amir/docreport.py:94
+msgid "Accounting Document"
+msgstr ""
+
+#: ../amir/docreport.py:94
+msgid "Document Number"
+msgstr ""
+
+#: ../amir/docreport.py:94 ../amir/tbalancereport.py:119
+#: ../amir/notebookreport.py:177 ../amir/notebookreport.py:201
+#: ../amir/notebookreport.py:266
+msgid "Date"
+msgstr ""
+
+#: ../amir/addeditdoc.py:21
+msgid "Register new document"
+msgstr ""
+
+#: ../amir/addeditdoc.py:33 ../amir/notebookreport.py:38
+msgid "Press Enter to see available subjects."
+msgstr ""
+
+#: ../amir/addeditdoc.py:100
+#, python-format
+msgid ""
+"No document found with number %s\n"
+"Do you want to register a document with this number?"
+msgstr ""
+
+#: ../amir/addeditdoc.py:102
+msgid "No Documents found"
+msgstr ""
+
+#: ../amir/addeditdoc.py:116
+msgid "Edit document"
+msgstr ""
+
+#: ../amir/addeditdoc.py:176
+msgid "Add new row"
+msgstr ""
+
+#: ../amir/addeditdoc.py:197
+msgid "Edit row"
+msgstr ""
+
+#: ../amir/addeditdoc.py:244 ../amir/notebookreport.py:111
+#, python-format
+msgid "No subject is registered with the code: %s"
+msgstr ""
+
+#: ../amir/addeditdoc.py:246 ../amir/notebookreport.py:113
+msgid "No subjects found"
+msgstr ""
+
+#: ../amir/addeditdoc.py:291
+msgid "Are you sure to remove this row?"
+msgstr ""
+
+#: ../amir/addeditdoc.py:292 ../amir/addeditdoc.py:424
+#: ../amir/addeditdoc.py:449 ../amir/setting.py:179 ../amir/setting.py:225
+#: ../bin/amir.py:131 ../bin/amir.py:211
+msgid "Are you sure?"
+msgstr ""
+
+#: ../amir/addeditdoc.py:326
+msgid "Document should not be empty"
+msgstr ""
+
+#: ../amir/addeditdoc.py:327 ../amir/addeditdoc.py:345
+msgid "Can not save document"
+msgstr ""
+
+#: ../amir/addeditdoc.py:344
+msgid "Debt sum and Credit sum should be equal"
+msgstr ""
+
+#: ../amir/addeditdoc.py:400
+#, python-format
+msgid "Document saved with number %s."
+msgstr ""
+
+#: ../amir/addeditdoc.py:401
+msgid "Successfully saved"
+msgstr ""
+
+#: ../amir/addeditdoc.py:416
+msgid "You should save the document before make it permanent"
+msgstr ""
+
+#: ../amir/addeditdoc.py:417
+msgid "Document is not saved"
+msgstr ""
+
+#: ../amir/addeditdoc.py:423
+msgid "Are you sure to make this document temporary?"
+msgstr ""
+
+#: ../amir/addeditdoc.py:448
+msgid "Are you sure to delete the whole document?"
+msgstr ""
+
+#: ../amir/setting.py:37
+msgid "Current"
+msgstr ""
+
+#: ../amir/setting.py:42
+msgid "Name"
+msgstr ""
+
+#: ../amir/setting.py:47
+msgid "Path"
+msgstr ""
+
+#: ../amir/setting.py:146
+msgid "Add Database"
+msgstr ""
+
+#: ../amir/setting.py:158
+msgid ""
+"Can not connect to the database. The selected database file may not be a "
+"sqlite database or be corrupt."
+msgstr ""
+
+#: ../amir/setting.py:160
+msgid ""
+"The selected file is compatible with older versions of Amir. First convert "
+"it to the new version."
+msgstr ""
+
+#: ../amir/setting.py:162
+msgid "The requested database file doesn' exist."
+msgstr ""
+
+#: ../amir/setting.py:166
+msgid "Error opening new database"
+msgstr ""
+
+#: ../amir/setting.py:178
+msgid "Are you sure to remove this database from the list?"
+msgstr ""
+
+#: ../amir/setting.py:189
+msgid ""
+"All databases removed.\n"
+"The default database will be opened for use."
+msgstr ""
+
+#: ../amir/setting.py:190
+msgid "All databases removed"
+msgstr ""
+
+#: ../amir/setting.py:200
+msgid "Please wait..."
+msgstr ""
+
+#: ../amir/setting.py:202 ../bin/amir.py:189
+msgid "Repairing database"
+msgstr ""
+
+#: ../amir/setting.py:213 ../bin/amir.py:200
+msgid "Repair Operation Completed!"
+msgstr ""
+
+#: ../amir/setting.py:224 ../bin/amir.py:210
+msgid ""
+"You have changed the current database, any unsaved data will be lost.\n"
+"Are you sure to continue?"
+msgstr ""
+
+#: ../amir/setting.py:355
+msgid "Database settings changed successfully."
+msgstr ""
+
+#: ../amir/setting.py:356 ../amir/setting.py:384 ../amir/setting.py:414
+#: ../bin/amir.py:222
+msgid "Successfully changed"
+msgstr ""
+
+#: ../amir/setting.py:383
+msgid "Format settings changed successfully."
+msgstr ""
+
+#: ../amir/setting.py:413
+msgid "Report settings changed successfully."
+msgstr ""
+
+#: ../amir/printreport.py:181 ../amir/printreport.py:375
+#: ../amir/previewreport.py:91 ../amir/previewreport.py:119
+msgid "Sum of previous page"
+msgstr ""
+
+#: ../amir/printreport.py:286 ../amir/printreport.py:519
+#: ../amir/printreport.py:662 ../amir/previewreport.py:95
+#: ../amir/previewreport.py:126 ../amir/previewreport.py:136
+#: ../amir/subjects.py:52
+msgid "Sum"
+msgstr ""
+
+#: ../amir/printreport.py:417 ../amir/printreport.py:422
+#: ../amir/previewreport.py:103 ../amir/previewreport.py:108
+#: ../amir/notebookreport.py:217
+msgid "deb"
+msgstr ""
+
+#: ../amir/printreport.py:426 ../amir/previewreport.py:112
+#: ../amir/notebookreport.py:221
+msgid "equ"
+msgstr ""
+
+#: ../amir/printreport.py:428 ../amir/previewreport.py:114
+#: ../amir/notebookreport.py:223
+msgid "cre"
+msgstr ""
+
+#: ../amir/tbalancereport.py:53
+msgid "Ledger name"
+msgstr ""
+
+#: ../amir/tbalancereport.py:53 ../amir/notebookreport.py:201
+msgid "Remaining"
+msgstr ""
+
+#: ../amir/tbalancereport.py:75 ../amir/notebookreport.py:146
+msgid "Second date value shouldn't precede the first one."
+msgstr ""
+
+#: ../amir/tbalancereport.py:76 ../amir/notebookreport.py:147
+msgid "Invalid date order"
+msgstr ""
+
+#: ../amir/tbalancereport.py:111 ../amir/tbalancereport.py:129
+msgid "No ledgers found."
+msgstr ""
+
+#: ../amir/tbalancereport.py:112 ../amir/tbalancereport.py:130
+msgid "Empty report"
+msgstr ""
+
+#: ../amir/tbalancereport.py:119
+msgid "Trial Balance"
+msgstr ""
+
+#: ../bin/amir.py:130
+msgid "Are you sure to close the app?"
+msgstr ""
+
+#: ../bin/amir.py:187
+msgid "Repairing database, Please wait..."
+msgstr ""
+
+#: ../bin/amir.py:221
+msgid "Database changed successfully."
+msgstr ""
+
+#: ../amir/notebookreport.py:86
+msgid "Daily NoteBook"
+msgstr ""
+
+#: ../amir/notebookreport.py:88
+msgid "Ledgers NoteBook"
+msgstr ""
+
+#: ../amir/notebookreport.py:90
+msgid "Sub-ledgers NoteBook"
+msgstr ""
+
+#: ../amir/notebookreport.py:156
+msgid "One of document numbers are empty."
+msgstr ""
+
+#: ../amir/notebookreport.py:157 ../amir/notebookreport.py:167
+msgid "Invalid document order"
+msgstr ""
+
+#: ../amir/notebookreport.py:166
+msgid "Second document number shouldn't be greater than the first one."
+msgstr ""
+
+#. if self.type == self.__class__.LEDGER:
+#: ../amir/notebookreport.py:177 ../amir/notebookreport.py:201
+msgid "Doc. Number"
+msgstr ""
+
+#: ../amir/notebookreport.py:201
+msgid "Diagnosis"
+msgstr ""
+
+#: ../amir/notebookreport.py:257 ../amir/notebookreport.py:287
+msgid "The requested notebook is empty."
+msgstr ""
+
+#: ../amir/notebookreport.py:258 ../amir/notebookreport.py:288
+msgid "Empty notebook"
+msgstr ""
+
+#: ../amir/notebookreport.py:266
+msgid "Daily Notebook"
+msgstr ""
+
+#: ../amir/notebookreport.py:275
+msgid "Ledgers Notebook"
+msgstr ""
+
+#: ../amir/notebookreport.py:277
+msgid "Sub-ledgers Notebook"
+msgstr ""
+
+#: ../amir/notebookutils.py:12
+msgid ""
+"This operation may change numbers of permanent documents too.\n"
+"\n"
+"Are you sure to continue?"
+msgstr ""
+
+#: ../amir/notebookutils.py:14
+msgid "Changing document numbers"
+msgstr ""
+
+#: ../amir/notebookutils.py:31
+msgid "Ordering documents completed successfully."
+msgstr ""
+
+#: ../amir/notebookutils.py:33
+msgid "Operation successfull"
+msgstr ""
+
+#: ../amir/subjects.py:47
+msgid "Debtor or Creditor"
+msgstr ""
+
+#: ../amir/subjects.py:108
+msgid "Add Ledger"
+msgstr ""
+
+#: ../amir/subjects.py:142
+msgid "Add Sub-ledger"
+msgstr ""
+
+#: ../amir/subjects.py:188
+msgid "Please select an item from the list, to add subject for it."
+msgstr ""
+
+#: ../amir/subjects.py:189
+msgid "Select a subject"
+msgstr ""
+
+#: ../amir/subjects.py:195
+msgid "Edit Ledger"
+msgstr ""
+
+#: ../amir/subjects.py:259
+msgid "Subject can not be deleted, because it has some child subjects."
+msgstr ""
+
+#: ../amir/subjects.py:260 ../amir/subjects.py:271
+msgid "Error deleting subject"
+msgstr ""
+
+#: ../amir/subjects.py:270
+msgid ""
+"Subject can not be deleted, because there are some documents registered for "
+"it."
+msgstr ""
+
+#: ../amir/subjects.py:296
+msgid "Subject name should not be empty."
+msgstr ""
+
+#: ../amir/subjects.py:297
+msgid "Empty subject name"
+msgstr ""
+
+#: ../amir/subjects.py:332
+msgid "A subject with this name already exists in the current level."
+msgstr ""
+
+#: ../amir/subjects.py:333
+msgid "Duplicate subject name"
+msgstr ""
+
+#: ../amir/subjects.py:341
+msgid "Ledger Code field is empty"
+msgstr ""
+
+#: ../amir/subjects.py:342
+msgid "Invalid subject code"
+msgstr ""
+
+#: ../amir/subjects.py:356
+msgid "A subject with this code already exists."
+msgstr ""
+
+#: ../amir/subjects.py:357
+msgid "Duplicate subject code"
+msgstr ""
+
+#: ../amir/subjects.py:370
+#, python-format
+msgid ""
+"The type of this subject can not be changed to 'creditor', Because there "
+"are                             %d documents that use it as debtor."
+msgstr ""
+
+#: ../amir/subjects.py:375
+#, python-format
+msgid ""
+"The type of this subject can not be changed to 'debtor', Because there "
+"are                             %d documents that use it as creditor."
+msgstr ""
+
+#: ../amir/subjects.py:379
+msgid "Can not change subject type"
+msgstr ""

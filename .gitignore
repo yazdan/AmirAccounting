@@ -1,0 +1,6 @@
+*.pyc
+*.pyc
+*.db
+*.pyc
+*.sqlite
+data/amir.conf
